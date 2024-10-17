@@ -521,7 +521,29 @@ footer a {
   color: #fff;
 }
 
+footer img {
+  width: 100px;
+  margin-bottom: 10px;
+}
 
+@media (max-width: 768px) {
+  footer img {
+    width: 50px;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+
+  footer a {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+}
 
 
 
