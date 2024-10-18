@@ -397,20 +397,12 @@ font-size: 45px;
   
 }
 
-.services{
-	width: 100%;
-	margin-top: -100px;
-}
-
-.container{
-	max-width: 1170px;
-	margin: auto;
-}
 .services .heading{
 	margin-bottom: 60px;
 	width: 100%;
 	float: left;
 }
+
 .services .heading h1{
   white-space: nowrap;
   margin: 0 0 3px;
