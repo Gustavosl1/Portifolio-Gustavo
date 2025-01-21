@@ -1,3 +1,21 @@
+@font-face{
+  font-family: Profanations-Regular ;
+  src: url('./fonts/Profanations-Regular.otf') format('opentype');
+  
+  font-family: Techno_Nue-Regular ;
+  src: url('./fonts/Techno_Nue-Regular-iF66cd847495173.otf') format('opentype');
+  
+  font-family: Bionix-demo  ;
+  src: url('./fonts/Bionix-demo-BF65ea6d51aedbc.otf') format('opentype');
+  
+  font-family: Quickdude  ;
+  src: url('./fonts/quickdude-9my2l.otf') format('opentype');
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital@0;1&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +23,6 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
   background-color: black;
 }
 
@@ -44,7 +61,7 @@ a:hover {
   position: fixed;
   width: 100%;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.075);
+  background: rgba(49, 49, 49, 0.075);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur(13.5px);
   -webkit-backdrop-filter: blur(13.5px);
@@ -66,7 +83,7 @@ a:hover {
 }
 
 #menu a:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(87, 87, 87, 0.979);
   border-radius: 0.5rem;
   transition: 0.3s;
   ;
@@ -164,6 +181,10 @@ a:hover {
     transform: rotate(-135deg);
     top: -7px;
   }
+
+  #logo {
+    margin-left: 1rem;
+  }
 }
 
 
@@ -189,23 +210,27 @@ a:hover {
 }
 
 .banner h1 {
-  font-size: 5em;
+  font-size: 10em;
   margin-bottom: 10px;
   background-color: #fff;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  ;
+  font-family: 'Quickdude', sans-serif;
 }
 
 .banner h4 {
   font-size: 2em;
   margin-bottom: 20px;
+  font-family: "Exo 2", serif;
+  font-weight: 400;
 }
 
 .banner p {
   font-size: 1.9em;
   margin-bottom: 30px;
+  font-family: "Exo 2", serif;
+  font-weight: 400;
 }
 
 .banner-btn {
@@ -223,6 +248,29 @@ a:hover {
   background-color: #0084ff;
 }
 
+@media screen and (max-width: 768px) {
+  .banner h1 {
+    font-size: 5em;
+  }
+
+  .banner h4 {
+    font-size: 1.5em;
+  }
+
+  .banner p {
+    font-size: 1.2em;
+  }
+
+  .banner-btn {
+    font-size: 1em;
+  }
+
+  .banner{
+    height: 90vh;
+  }
+  
+}
+
 /* Sobre */
 
 #Sobre {
@@ -238,10 +286,19 @@ a:hover {
 #Sobre p {
   font-size: 1.2em;
   margin-bottom: 20px;
+  font-family: 'Techno_Nue-Regular', sans-serif;
 }
 
 #Sobre img {
   border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  #Sobre img {
+    width: 100%;
+    border-radius: 50px;
+  }
+  
 }
 
 
@@ -290,3 +347,6 @@ footer .version {
   }
 
 }
+
+/* Contact */
+
