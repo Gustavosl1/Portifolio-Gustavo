@@ -49,7 +49,9 @@ a:hover {
 }
 
 #logo span {
-  font-weight: 300;
+  background-image: linear-gradient(10deg, #333399 29%, #ff00cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #header {
@@ -190,7 +192,7 @@ a:hover {
 
 /* Banner */
 .banner {
-  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  background-image: linear-gradient(315deg, #111111 0%, #000000 74%);
   /* Substitua pelo seu URL de imagem */
   background-position: center;
   background-size: cover;
@@ -212,7 +214,7 @@ a:hover {
 .banner h1 {
   font-size: 10em;
   margin-bottom: 10px;
-  background-color: #fff;
+  background-image: linear-gradient(305deg, #333399 29%, #ff00cc 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -319,9 +321,15 @@ footer a {
   color: #fff;
 }
 
-footer img {
-  width: 80px;
+footer h4 {
   margin-bottom: 10px;
+  font-size: 30px;
+}
+
+footer h4 span {
+  background-image: linear-gradient(10deg, #333399 29%, #ff00cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 footer .version {
@@ -348,5 +356,5 @@ footer .version {
 
 }
 
-/* Contact */
+
 
