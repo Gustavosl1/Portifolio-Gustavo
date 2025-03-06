@@ -15,3 +15,20 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.cards');
+    const infoBox = document.getElementById('infoBox');
+
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            const info = card.getAttribute('data-info');
+            infoBox.textContent = info;
+            infoBox.style.display = 'block';
+        });
+
+        card.addEventListener('mouseleave', () => {
+            infoBox.style.display = 'none';
+        });
+    });
+});
