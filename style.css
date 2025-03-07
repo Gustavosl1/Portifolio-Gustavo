@@ -508,6 +508,15 @@ footer .version {
   .card-content1, .card-content2, .card-content3 {
     text-align: center;
   }
+
+  .card-content1 h2, .card-content2 h2, .card-content3 h2 {
+    font-size: 1.2rem;
+  }
+
+  .card-content1 p, .card-content2 p, .card-content3 p {
+    font-size: 0.9rem;
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -516,6 +525,14 @@ footer .version {
   }
 
   .card-content1, .card-content2, .card-content3 {
+    font-size: 0.8rem;
+  }
+
+  .card-content1 h2, .card-content2 h2, .card-content3 h2 {
+    font-size: 1rem;
+  }
+
+  .card-content1 p, .card-content2 p, .card-content3 p {
     font-size: 0.8rem;
   }
   
