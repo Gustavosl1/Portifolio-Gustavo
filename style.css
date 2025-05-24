@@ -428,6 +428,17 @@ footer .version {
   transition: transform 0.2s;
   background: none;
 }
+.card4{
+  border: 2px solid;
+  border-color: #6f00ff;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 100%;
+  height: 300px;
+  max-width: 400px;
+  transition: transform 0.2s;
+  background: none;
+}
 
 .card:hover {
   transform: scale(1.02);
@@ -458,7 +469,14 @@ footer .version {
   font-weight: 600;
 }
 
-.card-content1, .card-content2, .card-content3  p {
+.card-content4 h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #6f00ff ;
+  font-weight: 600;
+}
+
+.card-content1, .card-content2, .card-content3, .card-content4  p {
   margin-bottom: 0.5rem;
   color: #8f8f8f;
   font-weight: 400;
@@ -493,48 +511,59 @@ footer .version {
   font-size: 20px;
 }
 
+.card-content4 a {
+  display: inline-block;
+  padding: 0.5rem;
+  color: #6f00ff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
 
 @media (max-width: 768px) {
   .container-cards {
     flex-direction: column;
   }
 
-  .card1, .card2, .card3 {
+  .card1, .card2, .card3, card4 {
     margin-bottom: 2rem;
   }
 
-  .card1, .card2, .card3 {
+  .card1, .card2, .card3, card4 {
     width: 100%;
   }
 
-  .card-content1, .card-content2, .card-content3 {
+  .card-content1, .card-content2, .card-content3, .card-content4 {
     text-align: center;
   }
 
-  .card-content1 h2, .card-content2 h2, .card-content3 h2 {
+  .card-content1 h2, .card-content2 h2, .card-content3 h2, .card-content4 h2 {
     font-size: 1.7rem;
   }
 
-  .card-content1 p, .card-content2 p, .card-content3 p {
+  .card-content1 p, .card-content2 p, .card-content3 p, .card-content4 p {
     font-size: 1.2rem;
   }
 
 }
 
 @media (max-width: 480px) {
-  .card1, .card2, .card3 {
+  .card1, .card2, .card3, .card4 {
     padding: 0.5rem;
   }
 
-  .card-content1, .card-content2, .card-content3 {
+  .card-content1, .card-content2, .card-content3, .card-content4 {
     font-size: 0.8rem;
   }
 
-  .card-content1 h2, .card-content2 h2, .card-content3 h2 {
+  .card-content1 h2, .card-content2 h2, .card-content3 h2, .card-content4 h2 {
     font-size: 1.5rem;
   }
 
-  .card-content1 p, .card-content2 p, .card-content3 p {
+  .card-content1 p, .card-content2 p, .card-content3 p, .card-content4 p {
     font-size: 1rem;
   }
   
